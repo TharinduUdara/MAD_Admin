@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:background="#48D1CC"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:gravity="center"
+            android:textSize="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Admin"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Bview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Dipartment"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/Bedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Edit"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/Bdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Delete"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
